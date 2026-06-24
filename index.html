@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <!--Meta Tags for SEO-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=""NJOMBA INDUSTRIES (NI) provides PSIRA approved maritime private security services and professional protection solutionS."
+    <meta name="keywords" content="maritime security, private security, PSIRA approved, Njomba Industries, security services">
+    <meta name="author" content="Hlumelo Njomba">
+   
+    <!--SEO Friendly Title-->
+    <title>NJOMBA INDUSTRIES | Maritime Private Security</title>
+     
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    
+</head>
+<body>
+    <header>
+<nav> 
+     <center>
+<a href="./index.html">Home</a>
+<a href="./pages/about.html">About</a>
+<a href="./pages/services.html">Services</a>
+<a href="./pages/contact.html">Contact</a>
+
+
+</center>
+
+</nav>
+</header>
+<main>
+<section>
+       <center>
+        <h1><b>NJOMBA INDUSTRIES (NI) </b></h1>
+        <p>Maritime Private Security</p>
+        <p>PSIRA Approved</p>
+
+<a href="./pages/services.html">
+   <button> View Options</button><br/>
+</a>
+
+<a>
+   <button onclick="changeColor()">Change Color</button>
+</a>
+
+
+
+         </center>
+      </section>
+
+      <h2 id="clock"></h2>
+
+
+<script>
+   
+   function updateClock() {
+      let now = new Date();
+      document.getElementById("clock").innerText = now.toLocaleTimeString();
+   }
+   setInterval(updateClock, 1000);
+   updateClock();
+   
+</script>
+      
+      </main>
+<footer>
+
+<p>&copy; 2026 Njomba Industries. All rights reserved</p>
+
+<img src="images/sec 1.jpg" alt="sec 1" width="550" height="350">
+<img src="images/sec 2.jpg" alt="sec 2" width="550" height="350">
+<img src="images/sec 3.jpg" alt="sec 3" width="550" height="350">
+
+</footer>
+
+<script>
+
+   function changeColor() {
+      document.body.style.background = "#" + Math.floor(Math.random()*16777215).toString(16);
+   }
+      
+</script><br/>
+
+
+</body>
+</html>
+      
